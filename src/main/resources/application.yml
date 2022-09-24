@@ -1,0 +1,18 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          casdoor:
+            client-id: 373f2ecd05ac820261dd
+            client-secret: a9c834e92b0b3900af1bc131d2865681d6b07f81
+            scope:
+              - openid
+              - email
+              - profile
+              - address
+              - phone
+              - offline_access
+        provider:
+          casdoor:
+            issuer-uri: https://door.code-pp.com
